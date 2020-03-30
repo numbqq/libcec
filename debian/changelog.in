@@ -1,3 +1,9 @@
+libcec (4.0.4.2~#DIST#1) #DIST#; urgency=medium
+
+  * switch to python3
+
+ -- Nick Xie <nick@khadas.com>  Tue, 31 Mar 2020 01:39:14 +0800
+
 libcec (4.0.4.2~#DIST#) #DIST#; urgency=medium
 
   * add Linux CEC Adapter
