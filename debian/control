@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7),
  pkg-config,
  libudev-dev,
  libp8-platform-dev,
- python-dev,
+ python3-dev,
  cmake (>= 2.8.9),
  swig,
  libxrandr-dev,
@@ -48,12 +48,12 @@ Description: libCEC communication Library (utility programs)
  .
  This package provides the CEC utility programs.
 
-Package: python-libcec
+Package: python3-libcec
 Architecture: any
 Section: python
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libcec4 (= ${binary:Version})
-Description: Python bindings for libCEC
+Description: Python 3 bindings for libCEC
  This library provides Python bindings for libCEC.
  .
  This package provides Python bindings for libCEC.
